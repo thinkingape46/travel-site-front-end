@@ -5,6 +5,10 @@
         margin-right: -65px;
     }
 
+    &--gutter-large {
+        margin-right: -100px;
+    }
+
     &__b-margin-until-medium {
         margin-bottom: 1rem;
     }
@@ -31,9 +35,18 @@
         &__medium-8--smaller {
             width: 63%;
         }
+
+        &__medium-6 {
+            float: left;
+            width: 50%;
+        }
     }
 
     &--gutter > div {
         padding-right: 65px;
+    }
+
+    &--gutter-large > div {
+        padding-right: 100px;
     }
 }
