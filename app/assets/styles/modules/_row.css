@@ -9,6 +9,10 @@
         margin-right: -100px;
     }
 
+    &--gutter-small {
+        margin-right: -45px;
+    }
+
     &__b-margin-until-medium {
         margin-bottom: 1rem;
     }
@@ -48,5 +52,25 @@
 
     &--gutter-large > div {
         padding-right: 100px;
+    }
+
+    &--gutter-small > div {
+        padding-right: 45px;
+    }
+
+    &--t-padding {
+        padding-top: 80px;
+    }
+
+    /* Begin equal height rules */
+
+    &--equal-height-at-medium {
+        @mixin atMedium {
+            display: flex;
+        }
+        & > div {
+            float: none;
+            display: flex;
+        }
     }
 }

@@ -17,10 +17,16 @@
         margin-bottom: 0.6rem;
 
         @mixin atSmall {
+            position: relative;
+            top: 8px;
             display: inline;
             margin-left: 0;
             margin-right: 0.5rem;
             margin-bottom: 0rem;
         }
+    }
+
+    &__blue {
+        color: $mainBlue;
     }
 }
