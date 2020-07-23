@@ -8,6 +8,7 @@
 
     &__text-content {
         position: absolute;
+        padding-top: 60px;
         left: 0;
         top: 50%;
         width: 100%;
