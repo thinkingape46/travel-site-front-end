@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,13 +20,21 @@
   },
   "homepage": "https://github.com/thinkingape46/travel-site-front-end#readme",
   "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.5",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
+    "cssnano": "^4.1.10",
+    "fs-extra": "^9.0.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "postcss-hexrgba": "^2.0.1",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
