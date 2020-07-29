@@ -26,9 +26,12 @@
     "babel-loader": "^8.1.0",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
     "autoprefixer": "^9.8.5",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
